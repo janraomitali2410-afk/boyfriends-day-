@@ -2,17 +2,114 @@
 <html>
 <head>
     <title>Boyfriend's Day 💙</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #dcecff;
+            font-family: Georgia, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .page {
+            width: 85%;
+            max-width: 600px;
+            min-height: 600px;
+            background: #fffaf0;
+            border: 4px solid #263b5c;
+            box-shadow: 12px 12px 0 #263b5c;
+            padding: 40px 25px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .heart {
+            font-size: 45px;
+            margin: 10px;
+        }
+
+        h1 {
+            color: #263b5c;
+            font-size: 42px;
+            margin-top: 80px;
+        }
+
+        p {
+            color: #53677f;
+            font-size: 20px;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 16px 35px;
+            border: 3px solid #263b5c;
+            background: #f6c6d8;
+            color: #263b5c;
+            font-size: 18px;
+            font-family: Georgia, serif;
+            cursor: pointer;
+            box-shadow: 5px 5px 0 #263b5c;
+        }
+
+        button:active {
+            box-shadow: 2px 2px 0 #263b5c;
+            transform: translate(3px, 3px);
+        }
+
+        .star {
+            position: absolute;
+            font-size: 30px;
+        }
+
+        .one {
+            top: 25px;
+            left: 25px;
+        }
+
+        .two {
+            top: 35px;
+            right: 30px;
+        }
+
+        .three {
+            bottom: 30px;
+            left: 35px;
+        }
+
+        .four {
+            bottom: 35px;
+            right: 35px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>HAPPY BOYFRIEND'S DAY 💙</h1>
+    <div class="page">
 
-    <p>A little surprise made just for you...</p>
+        <div class="star one">✦</div>
+        <div class="star two">♡</div>
+        <div class="star three">✦</div>
+        <div class="star four">♡</div>
 
-    <button onclick="alert('YAYYY! 💗')">
-        CONTINUE 💌
-    </button>
+        <div class="heart">💙</div>
+
+        <h1>
+            HAPPY<br>
+            BOYFRIEND'S DAY
+        </h1>
+
+        <p>A little surprise made just for you...</p>
+
+        <button onclick="alert('YAYYY! The surprise begins! 💌')">
+            CONTINUE 💌
+        </button>
+
+    </div>
 
 </body>
 </html>
